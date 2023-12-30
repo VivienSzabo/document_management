@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document Management App</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="mb-10">
+      <h1>Document Management App</h1>
+      <div class="float-right header-content">
+        <span
+          ><img
+            class="mr-10"
+            src="assets/icons/icons8-user-50.png"
+            title="user"
+            alt="user"
+          />
+          <h3 class="mr-60">User Name</h3></span
+        >
+        <a href="admin/login.html">
+          <span
+            ><img
+              src="assets/icons/icons8-login-52.png"
+              title="login"
+              alt="login"
+            />
+          </span>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="col-6" id="content">
+        <div class="mb-20 search-container">
+          <input type="search" name="search" placeholder="category" />
+          <input type="search" name="search" placeholder="title" />
+
+          <button class="search-button">
+            <img
+              src="assets/icons/icons8-search-50.png"
+              title="search"
+              alt="search"
+            />
+            Search
+          </button>
+          <button class="cancel-button">
+            <img
+              src="assets/icons/icons8-cancel-50.png"
+              title="cancel"
+              alt="cancel"
+            />
+            Cancel
+          </button>
+        </div>
+
+        <div style="overflow-x: auto">
+          <table cellspacing="0">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Categories</th>
+                <th>Publicher</th>
+                <th>Sort text</th>
+                <th>Long text</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Kártya kiadás</td>
+                <td>Intézkedési terv, utasítás</td>
+                <td>Ügyvezetés</td>
+                <td>Sed vitae lectus</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Nyilatkozat</td>
+                <td>Intézkedési terv, utasítás</td>
+                <td>Ügyvezetés</td>
+                <td>Sed vitae lectus</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Pótszabadság igénylés</td>
+                <td>Intézkedési terv, utasítás</td>
+                <td>Ügyvezetés</td>
+                <td>Sed vitae lectus</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Pótszabadság igénylés</td>
+                <td>Intézkedési terv, utasítás</td>
+                <td>Ügyvezetés</td>
+                <td>Sed vitae lectus</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Pótszabadság igénylés</td>
+                <td>Intézkedési terv, utasítás</td>
+                <td>Ügyvezetés</td>
+                <td>Sed vitae lectus</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td colspan="5" class="display-doc">
+                  A total of x documents displayed
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-6" id="details">
+        <header>Document detail view</header>
+      </div>
+    </main>
+  </body>
+</html>
